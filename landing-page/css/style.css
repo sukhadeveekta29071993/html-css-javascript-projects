@@ -1,0 +1,129 @@
+body {
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+/* header */
+
+header {
+    background-color: #333;
+    color: #ffff;
+    padding: 15px;
+}
+
+header h1 {
+    margin: 0;
+    display: inline-block;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffff;
+}
+
+/* hero */
+
+#hero {
+    background-image: url("../images/HeroImage.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #f48181;
+    padding: 200px 0;
+    text-align: center;
+}
+
+#hero h2 {
+    font-size: 30px;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.btn {
+    background-color: rgb(255, 191, 0);
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* features */
+
+#features {
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.feature {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    background: #efe7e7;
+}
+
+.feature img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+/* testimonial */
+
+#testimonial {
+    padding: 50px 0;
+    background-color: #ffff;
+}
+
+.testimonial {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* cta */
+
+#cta {
+    background-color: rgb(255, 191, 0);
+    padding: 50px 20px;
+    color: #fff;
+}
+
+#cta .btn {
+    background-color: #fff;
+    color: rgb(255, 191, 0);
+}
+
+#cta .btn:hover {
+    background-color: rgb(240, 8, 8);
+    color: #ffff;
+}
+
+/* footer */
+
+footer {
+    background-color: #333;
+    color: #ffff;
+    padding: 20px 10px;
+    margin: 10px;
+}
